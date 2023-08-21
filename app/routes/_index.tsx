@@ -9,8 +9,8 @@ export const meta: V2_MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div>
+    <>
       Landing page. <a href="/app">Go to app</a>.
-    </div>
+    </>
   );
 }

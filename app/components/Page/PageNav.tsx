@@ -10,7 +10,7 @@ export function PageNav({ links = [] }: PageNavProps) {
   }
 
   return (
-    <nav className="h-12 px-6  border-b border-b-slate-200">
+    <nav className="h-12 px-6 border-b border-b-slate-200 bg-white">
       <ul className="h-full flex flex-row items-center text-sm">
         {links.map((link, index) => (
           <li key={link.to} className="mr-4">
