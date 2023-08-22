@@ -1,10 +1,10 @@
-interface InputErrorProps {
+interface FieldErrorProps {
   error?: {
     _errors: string[];
   };
 }
 
-export function InputError({ error }: InputErrorProps) {
+export function FieldError({ error }: FieldErrorProps) {
   if (!error) {
     return null;
   }
